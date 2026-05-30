@@ -55,7 +55,7 @@ export const Header = () => {
             <div className="max-w-6xl mx-auto px-6 lg:px-8">
                 
                 <div className={`flex items-center justify-between py-5 transition-all duration-300 ${
-                    isScrolled ? 'rounded-3xl bg-white shadow-sm  px-2' : ''
+                    isScrolled ? 'rounded-3xl bg-white shadow-sm  md:px-6 px-3' : ''
                 }`}>
                     
                     {/* Logo */}
