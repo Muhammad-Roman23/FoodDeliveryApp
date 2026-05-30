@@ -7,6 +7,8 @@ import { Contact } from "../pages/Contact"
 import { CheckoutPage } from "../pages/CheckoutPage"
 import { RegisterPage } from "../pages/RegisterPage"
 import { LoginPage } from "../pages/LoginPage"
+import { AdminLayout } from "../AdminDashboard/SidebarLayout"
+import { Dashboard } from "../AdminDashboard/Dashboard"
 
 
 export const Router = () => {
@@ -23,6 +25,10 @@ export const Router = () => {
                 <Route path="/checkout" element={<CheckoutPage />} />
                 <Route path="/register" element={<RegisterPage />} />
                 <Route path="/login" element={<LoginPage />} />
+
+                <Route element={<AdminLayout />}>
+                 <Route path="/dashboard" element={<Dashboard />} />
+                    </Route>
             </Routes>
         </BrowserRouter>
     )
