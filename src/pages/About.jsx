@@ -5,6 +5,7 @@ import { FAQSection } from "../components/FAQSection"
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Testimonials } from "../components/Testimonials";
+import aboutpageimage from "../assets/images/aboutpageimage.jpg";
 
 export const About = () => {
       const [activeTab, setActiveTab] = useState("mission");
@@ -75,7 +76,7 @@ window.scroll(0,0)
          <Banner
         title="About FoodDash"
         description="FoodDash is a modern food delivery platform built to bring your favorite meals straight to your doorstep. We believe in fast service, fresh food, and a seamless experience that connects customers with the best restaurants in town. Our mission is to make food ordering simple, fast, and enjoyable for everyone."
-        bgImage="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+        bgImage={aboutpageimage}
       />
            <Categories/>
     <section className="py-20 bg-[#F8FAFC]">

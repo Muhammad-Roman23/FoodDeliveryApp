@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Plus, Minus, Search } from 'lucide-react';
 import { CTASection } from "../components/CTASection";
+import productspageimage from "../assets/images/productspageimage.jpg";
 
 export const AllProducts = () => {
 
@@ -26,7 +27,7 @@ export const AllProducts = () => {
             <Banner
                 title="Explore Our Dishes"
                 description="Browse our carefully curated selection of mouthwatering meals, prepared fresh and delivered fast. Whether you're craving a hearty burger, authentic pizza, delicious cakes, or flavorful snacks, FoodDash brings the best tastes together in one place for a convenient and satisfying dining experience."
-                bgImage="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38"
+                bgImage={productspageimage}
             />
 
             <section className="py-16 bg-white">

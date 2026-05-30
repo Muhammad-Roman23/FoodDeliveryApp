@@ -2,7 +2,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import image from "../assets/images/slider1image.avif"
+import registerpageimage from "../assets/images/registerpageimage.avif"
 import { Link } from "react-router-dom";
 
 export const RegisterPage = () => {
@@ -107,7 +107,7 @@ export const RegisterPage = () => {
     className="absolute inset-0 bg-cover bg-center opacity-20"
     style={{
       backgroundImage:
-        `url(${image})`,
+        `url(${registerpageimage})`,
     }}
   ></div>
 

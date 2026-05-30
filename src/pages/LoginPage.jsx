@@ -2,8 +2,9 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import image from "../assets/images/slider1image.avif"
+import loginpageimage from "../assets/images/loginpageimage.avif"
 import { Link } from "react-router-dom";
+
 
 
 export const LoginPage = () => {
@@ -41,7 +42,7 @@ export const LoginPage = () => {
     className="absolute inset-0 bg-cover bg-center opacity-20"
   style={{
         backgroundImage:
-          `url(${image})`,
+          `url(${loginpageimage})`,
       }}
   ></div>
 

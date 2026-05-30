@@ -55,7 +55,7 @@ export const Header = () => {
             <div className="max-w-6xl mx-auto px-6 lg:px-8">
                 
                 <div className={`flex items-center justify-between py-5 transition-all duration-300 ${
-                    isScrolled ? 'rounded-3xl bg-white shadow-sm  px-6' : ''
+                    isScrolled ? 'rounded-3xl bg-white shadow-sm  px-2' : ''
                 }`}>
                     
                     {/* Logo */}
@@ -87,8 +87,8 @@ export const Header = () => {
                     </nav>
 
                     {/* Right Side */}
-                    <div className="flex items-center gap-4">
-                        
+                    <div className="flex items-center md:gap-4  gap-0">
+                         
                         {/* Cart Icon */}
                     <motion.div 
                         whileHover={{ scale: 1.1 }}

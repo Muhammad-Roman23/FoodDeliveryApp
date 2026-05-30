@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import aboutImage from "../assets/images/aboutimage.avif";
 
 export const AboutUs = () => {
     return (
@@ -15,7 +16,7 @@ export const AboutUs = () => {
                     >
                         <div className="rounded-3xl overflow-hidden shadow-xl">
                             <img 
-                                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34b4" 
+                                src={aboutImage} 
                                 alt="FoodDash Team"
                                 className="w-full h-full object-cover"
                             />

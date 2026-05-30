@@ -10,6 +10,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-fade';
 import  slider1  from  "../assets/images/slider1image.avif";
+import  slider2  from  "../assets/images/slider2image.avif";
+import  slider3  from  "../assets/images/slider3image.jpg";
 import { Products } from "../components/Products";
 import { CTASection } from "../components/CTASection";
 import { WhyChooseUs } from "../components/WhyChooseUs";
@@ -63,13 +65,13 @@ export const Home = () => {
             buttonText: "Order Now"
         },
         {
-            image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8",
+            image: slider2,
             title: "Pizza Love Delivered Fast",
             subtitle: "Hot, cheesy, and straight to your door in minutes",
             buttonText: "Order Pizza"
         },
         {
-            image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b",
+            image: slider3,
             title: "Desi Flavors at Your Doorstep",
             subtitle: "Authentic biryani, karahi & more with love",
             buttonText: "Browse Menu"
